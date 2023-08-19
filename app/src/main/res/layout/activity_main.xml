@@ -24,7 +24,7 @@
          android:layout_height="wrap_content"
          android:inputType="number"
          android:layout_gravity="center_horizontal"
-         android:hint="Nombre Question"
+         android:hint="Question entre 5 et 120"
      />
      <CheckBox
          android:id="@+id/checkBox1"
