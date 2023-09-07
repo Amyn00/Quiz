@@ -10,6 +10,7 @@ import android.text.Editable;
 import android.view.accessibility.AccessibilityNodeInfo;
 import android.widget.EditText;
 
+
 public class MainActivity extends AppCompatActivity {
 
     private EditText numericEditText;
@@ -19,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         numericEditText = findViewById(R.id.numericEditText);
+
         numericEditText.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
